@@ -14,16 +14,16 @@ basic.showIcon(IconNames.Happy)
 // when button "A" is clicked
 input.onButtonPressed(Button.A, function () {
     basic.clearScreen()
-    robotbit.Servo(servoNumber8, 0)
     basic.showString('0')
     basic.showIcon(IconNames.SmallSquare)
+    robotbit.Servo(servoNumber8, 0)
     basic.showIcon(IconNames.Happy)
 })
 
 input.onButtonPressed(Button.B, function () {
     basic.clearScreen()
-    robotbit.Servo(servoNumber8, 180)
     basic.showString('180')
     basic.showIcon(IconNames.SmallSquare)
+    robotbit.Servo(servoNumber8, 180)
     basic.showIcon(IconNames.Happy)
 })
