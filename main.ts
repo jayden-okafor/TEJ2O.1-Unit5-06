@@ -20,6 +20,7 @@ input.onButtonPressed(Button.A, function () {
     basic.showIcon(IconNames.Happy)
 })
 
+// when button "B" is clicked
 input.onButtonPressed(Button.B, function () {
     basic.clearScreen()
     basic.showString('180')
