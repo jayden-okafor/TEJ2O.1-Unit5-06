@@ -8,7 +8,7 @@
 // variables
 const servoNumber8 = robotbit.Servos.S8
 
-// show hapy face
+// show happy face
 basic.showIcon(IconNames.Happy)
 
 // when button "A" is clicked
